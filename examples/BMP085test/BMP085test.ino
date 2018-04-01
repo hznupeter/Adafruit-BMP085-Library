@@ -17,7 +17,7 @@
   BSD license, all text above must be included in any redistribution
  ****************************************************/
 
-// Connect VCC of the BMP085 sensor to 3.3V (NOT 5.0V!)
+// Connect VCC of the BMP085 sensor to 5.0V!
 // Connect GND to Ground
 // Connect SCL to i2c clock - on '168/'328 Arduino Uno/Duemilanove/etc thats Analog 5
 // Connect SDA to i2c data - on '168/'328 Arduino Uno/Duemilanove/etc thats Analog 4
