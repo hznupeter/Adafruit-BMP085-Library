@@ -1,27 +1,10 @@
-This is a library for the BMP085/BMP180 Barometric Pressure + Temp sensor
 
-Designed specifically to work with the  BMP085 or BMP180 Breakout 
-https://item.taobao.com/item.htm?spm=a1z0d.6639537.1997196601.63.c2657484simWdh&id=532169716489
+BMP085/BMP180气压传感器arduino 库
+购买地址：https://item.taobao.com/item.htm?spm=a1z0d.6639537.1997196601.63.c2657484simWdh&id=532169716489
+该传感器使用IIC接口，用两根线通信。
 
-These displays use I2C to communicate, 2 pins are required to interface
-Adafruit invests time and resources providing this open source code, 
-please support Adafruit and open-source hardware by purchasing 
-products from Adafruit!
+# 安装
 
-Check out the links above for our tutorials and wiring diagrams 
+点击 "Clone or download" -> "Download ZIP" 按钮.
 
-Adafruit invests time and resources providing this open source code, 
-please support Adafruit and open-source hardware by purchasing 
-products from Adafruit!
-
-Written by Limor Fried/Ladyada for Adafruit Industries.  
-BSD license, all text above must be included in any redistribution
-
-To download. click the DOWNLOAD ZIP button, rename the uncompressed folder Adafruit_BMP085. 
-Check that the Adafruit_BMP085 folder contains Adafruit_BMP085.cpp and Adafruit_BMP085.h
-
-Place the Adafruit_BMP085 library folder your arduinosketchfolder/libraries/ folder. 
-You may need to create the libraries subfolder if its your first library. Restart the IDE.
-
-We also have a great tutorial on Arduino library installation at:
-http://learn.adafruit.com/adafruit-all-about-arduino-libraries-install-use
+(Arduino 1.5.x以上版本) 打开Arduino IDE, 点击 项目 -> 加载库 -> 添加 .ZIP 库 然后选择下载好的zip文件。
